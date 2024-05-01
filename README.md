@@ -6,7 +6,7 @@ The dataset used in this project is sourced from Kaggle's Titanic: Machine Learn
 
 ## Project Structure 📂
 
-The project structure includes directories such as `train.csv`, `app.py`, `templates/`, `static/`. To run the project locally, clone the repository, navigate to the project directory, run the Flask web application using `python app.py`. Then, access the application in your web browser at `http://localhost:5000`.
+The project structure includes directories such as `train.csv`, `app.py`, `templates/`, `static/`. To run the project locally, clone the repository, navigate to the project directory, run the Flask web application using `python app.py`. Then, access the application in your web browser at `[http://localhost:5000](https://flask-deploy-b45k.onrender.com/)`.
 
 ## Contributors 👨‍💻👩‍💻
 
