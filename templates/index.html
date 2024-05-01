@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanic Survival Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Titanic Survival Prediction</h1>
+        <form action="/predict" method="post">
+            <label for="Pclass">Passenger Class (1st, 2nd, or 3rd):</label><br>
+            <input type="text" id="Pclass" name="Pclass"><br>
+            
+            <label for="Sex">Passenger Gender (Male/Female):</label><br>
+            <input type="text" id="Sex" name="Sex"><br>
+
+            <label for="Age">Passenger Age:</label><br>
+            <input type="text" id="Age" name="Age"><br>
+
+            <label for="SibSp">Number of Siblings or Spouses Aboard:</label><br>
+            <input type="text" id="SibSp" name="SibSp"><br>
+
+            <label for="Parch">Number of Parents or Children Aboard:</label><br>
+            <input type="text" id="Parch" name="Parch"><br>
+
+            <label for="Embarked">Port of Embarkation (C = Cherbourg, Q = Queenstown, S = Southampton):</label><br>
+            <input type="text" id="Embarked" name="Embarked"><br>
+
+            <label for="Fare">Passenger Fare:</label><br>
+            <input type="text" id="Fare" name="Fare"><br>
+
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
+
